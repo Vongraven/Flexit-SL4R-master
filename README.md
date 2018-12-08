@@ -40,3 +40,8 @@ Meaning of data in line 15 of the 16 lines:
 0 <br/>
 179     // checksum A <br/>
 220     // checksum B <br/>
+
+
+Issue of buffer overflow:
+CS50 sends data at such a rate that the serial RX buffer overflows in seconds. When that happens consistency in data is lost and it becomes useless. It can be solved by increasing SERIAL_RX_BUFFER_SIZE from 64 to 1024 or so. This solution works well with Arduino Mega, but it may be that Arduino Due is better suited for the job. 
+
