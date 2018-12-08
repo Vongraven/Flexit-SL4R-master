@@ -8,35 +8,35 @@ This bulk of data is sent cyclically:
 
 Meaning of data in line 15 of the 16 lines:
 
-195 
-1 
-0 
-196 
-75 
-193 
-1 
-22      // telegram length
-32 
-14 
-145 
-128 
-0 
-17      // fan level. 17=level1, 34=level2, 51=level3 
-0       // preheat on/off
-4 
-0 
-25      // preset heat exchanger temperature
-0       // heating element active when value >10 
-100     // heating element inactive when value <100 
-0 
-49 
-49 
-0 
-0 
-0 
-152 
-136 
-136 
-0 
-179     // checksum A
-220     // checksum B
+195 <br/>
+1 <br/>
+0 <br/>
+196 <br/>
+75 <br/>
+193 <br/>
+1 <br/>
+22      // telegram length <br/>
+32 <br/>
+14 <br/>
+145 <br/>
+128 <br/>
+0 <br/>
+17      // fan level. 17=level1, 34=level2, 51=level3 <br/>
+0       // preheat on/off <br/>
+4 <br/>
+0 <br/>
+25      // preset heat exchanger temperature <br/>
+0       // heating element active when value >10 <br/>
+100     // heating element inactive when value <100 <br/>
+0 <br/>
+49 <br/>
+49 <br/>
+0 <br/>
+0 <br/>
+0 <br/>
+152 <br/>
+136 <br/>
+136 <br/>
+0 <br/>
+179     // checksum A <br/>
+220     // checksum B <br/>
