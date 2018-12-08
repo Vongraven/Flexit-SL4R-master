@@ -1,5 +1,5 @@
 /*
-* Flexit master for SL4R ventilation system (CS60 cntrol board)
+* Flexit master for SL4R ventilation system (CS50 cntrol board)
 * Tested on Arduino Mega. 
 * Important! increase SERIAL_RX_BUFFER in HardwareSerial.h 
 */
@@ -20,7 +20,7 @@
 #define preheatActive       processedData[3]
 
 
-// Eavsdrop command sent from ci50 controller and match values in commandBuffer[] 
+// Eavsdrop command sent from CI50 controller and match values in commandBuffer[] 
 uint8_t commandBuffer[18] = {195, 4, 0, 199, 81, 193, 4, 8, 32, 15, 0, 'F', 'P', 4, 0, 'T' };    
 uint8_t processedData [4]   = {}; 
 uint8_t rawData [25]   = {};                           
@@ -44,7 +44,7 @@ void loop() {
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-* CS60 control board repeats 16 lines of data over and over. For this purpose only line number 15 is needed. 
+* CS50 control board repeats 16 lines of data over and over. For this purpose only line number 15 is needed. 
 * Look for a specific combination of bytes to identify the correct line.
 * When combination is matched, read the line into buffer rawData[]
 *//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
