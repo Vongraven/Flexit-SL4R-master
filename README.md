@@ -3,7 +3,7 @@ Control Flexit ventilation with Arduino. Tested on Flexit SL4R but may also work
 
 <img src="images/topology.png" >
 
-This bulk of data is sent cyclically:
+The CS50 control board sends this bulk of data cyclically:
 <img src="images/dataflow.png" >
 
 Meaning of data in line 15 of the 16 lines:
